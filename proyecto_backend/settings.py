@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-y7hrvqwtbs8^wyk8k_uu^a)6ahw63abe9116-k#lgq&xtsl(+_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pagina-backend.onrender.com']
 
 
 # Application definition
