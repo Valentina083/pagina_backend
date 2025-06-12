@@ -69,6 +69,7 @@ class FacturaViewSet(viewsets.ModelViewSet):
                 producto = Producto.objects.get(id=item["id"])
             except Producto.DoesNotExist:
                 print("Producto con ID", item["id"], "no existe")
+            continue
 
             print("Creando detalle:", producto.nombre, item["cantidad"], item["precio"])
 
